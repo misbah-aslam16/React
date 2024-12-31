@@ -10,8 +10,8 @@ const Testimonal = () => {
                     <img 
                         src="./images/Rectangle 37.png" 
                         alt="Background" 
-                        className='img-fluid position-relative mx-auto'
-                        style={{ width: '100%', height: 'auto' }}
+                        className='img-fluid position-relative mx-auto top-lg-40 top-xl-50 top-md-20 mt-sm-5'
+                        style={{ width: '60%', height: 'auto' }}
                     />
 
                     {/* Foreground Image */}

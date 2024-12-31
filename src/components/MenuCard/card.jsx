@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 
 const Card = () => {
     return (
-        <Container className="py-5 mx-auto mt-2">
+        <Container className="py-5 mx-auto mt-2 mb-5">
             <div className="row gap-5 justify-content-center">
                 {/* Card 1 */}
                 <div className="col-lg-2 col-md-3 col-sm-6 col-12">
