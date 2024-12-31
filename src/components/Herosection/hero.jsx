@@ -31,13 +31,12 @@ const Hero = () => {
             </div>
 
             {/* Image Section */}
-            <div className="col-lg-6 col-md-12 col-sm-12 text-center position-relative mt-5 mt-lg-0">
-
+            <div className="col-lg-6 col-md-12 col-sm-12 text-center position-relative mt-3 mt-lg-0">
                 {/* Background Decorative Image */}
                 <img
                     src="./images/Intersect.png"
                     alt="Background Decorative"
-                    className="img-fluid position-relative p-5"
+                    className=" bg-[#39DB4A] rounded-circle img-fluid position-relative m-2"
                     style={{
                         zIndex: 0,
                         // background: '#39DB4A',

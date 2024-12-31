@@ -6,6 +6,10 @@ import Header from './components/Navbar/navbar'
 import Hero from './components/Herosection/hero'
 import Menu from './components/Menu/menu'
 import Dishsec from './components/Dishsection/dishsec'
+import Testimonal from './components/Testimonal/testimonal'
+import Service from './components/Services/services'
+import Footer from './components/Footer/footer'
+
 
 
 function App() {
@@ -13,10 +17,13 @@ function App() {
 
   return (
     <>
-    <Header/>
-    <Hero/>
-    <Menu/>
-    <Dishsec/>
+      <Header />
+      <Hero />
+      <Menu />
+      <Dishsec />
+      <Testimonal />
+      <Service/>
+      <Footer/>
     </>
   )
 }
