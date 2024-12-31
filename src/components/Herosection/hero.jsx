@@ -8,7 +8,7 @@ const Hero = () => {
         <Container className="d-flex flex-wrap align-items-center justify-content-between">
             {/* Text Section */}
             <div className="col-lg-6 col-md-12 col-sm-12 text-start mb-4 mb-lg-0">
-                <h1 className="display-5 fw-bold text-center text-lg-start">
+                <h1 className="display-5 fw-bold text-center text-lg-start mt-5">
                     Dive into Delights Of Delectable <span className='text-[#39DB4A]'>Food</span>
                 </h1>
                 <p className="lead my-4 text-center text-lg-start my-5">
