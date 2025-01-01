@@ -1,5 +1,6 @@
 import React from 'react';
 import Btn from '../Button/button';
+import './services.css'
 
 const Service = () => {
     return (
@@ -19,7 +20,7 @@ const Service = () => {
                     <div className='row g-4'>
                         {/* Service 1 - Catering */}
                         <div className='col-lg-6 col-md-6 col-sm-12'>
-                            <div className='shadow bg-white rounded-[20px] text-center p-3'>
+                            <div className='shadow bg-white rounded-[20px] text-center p-3 service-card'>
                                 <img
                                     src="./images/gift (1).png"
                                     alt="Catering"
@@ -32,7 +33,7 @@ const Service = () => {
 
                         {/* Service 2 - Fast delivery */}
                         <div className='col-lg-6 col-md-6 col-sm-12'>
-                            <div className='shadow bg-white rounded-[20px] text-center p-3'>
+                            <div className='shadow bg-white rounded-[20px] text-center p-3 service-card'>
                                 <img
                                     src="./images/gift (4).png"
                                     alt="Fast delivery"
@@ -47,7 +48,7 @@ const Service = () => {
                     <div className='row g-4 mt-5'>
                         {/* Service 3 - Online Ordering */}
                         <div className='col-lg-6 col-md-6 col-sm-12'>
-                            <div className='shadow bg-white rounded-[20px] text-center p-3'>
+                            <div className='shadow bg-white rounded-[20px] text-center p-3 service-card'>
                                 <img
                                     src="./images/gift (3).png"
                                     alt="Online Ordering"
@@ -60,7 +61,7 @@ const Service = () => {
 
                         {/* Service 4 - Gift Cards */}
                         <div className='col-lg-6 col-md-6 col-sm-12'>
-                            <div className='shadow bg-white rounded-[20px] text-center p-3'>
+                            <div className='shadow bg-white rounded-[20px] text-center p-3 service-card'>
                                 <img
                                     src="./images/gift (2).png"
                                     alt="Gift Cards"

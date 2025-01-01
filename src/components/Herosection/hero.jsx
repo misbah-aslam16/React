@@ -7,7 +7,8 @@ const Hero = () => {
     return (
         <Container className="d-flex flex-wrap align-items-center justify-content-between">
             {/* Text Section */}
-            <div className="col-lg-6 col-md-12 col-sm-12 text-start mb-4 mb-lg-0">
+            <div className="col-lg-6 col-md-12 col-sm-12 text-start mb-4 mb-lg-0" data-aos="fade-up"
+     data-aos-duration="3000">
                 <h1 className="display-5 fw-bold text-center text-lg-start mt-5">
                     Dive into Delights Of Delectable <span className='text-[#39DB4A]'>Food</span>
                 </h1>
@@ -15,10 +16,13 @@ const Hero = () => {
                     Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship
                 </p>
                 <div className="d-flex flex-column flex-lg-row gap-5 align-items-center justify-content-center justify-content-lg-start my-5">
-                    <Btn value={"Order Now"} />
+                    <Btn value={"Order Now"} data-aos="fade-up"
+     data-aos-duration="3000"/>
                     <a
                         href="#"
                         className="text-decoration-none text-dark d-flex gap-5 align-items-center"
+                        data-aos="fade-left"
+     data-aos-duration="4000"
                     >
                         Watch Video
                         <RiPlayMiniFill
@@ -37,6 +41,8 @@ const Hero = () => {
                     src="./images/Intersect.png"
                     alt="Background Decorative"
                     className=" bg-[#39DB4A] rounded-circle img-fluid position-relative m-2"
+                    data-aos="fade-up"
+     data-aos-duration="3000"
                     style={{
                         zIndex: 0,
                         // background: '#39DB4A',
@@ -47,11 +53,14 @@ const Hero = () => {
                 <img
                     src="./images/Group 15.png"
                     alt="Culinary Mastery"
+                    data-aos="fade-left"
+     data-aos-duration="3000"
                     className="img-fluid position-absolute top-20 start-40 translate-middle"
                     style={{ zIndex: 1 }}
                 />
 
-                <div className='position-absolute bottom-20'>
+                <div className='position-absolute bottom-20' data-aos="fade-left"
+     data-aos-duration="3000">
                     <img src="./images/tag.PNG" alt="" className='h-[80px] w-[200px]' />
                 </div>
             </div>

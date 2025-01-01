@@ -4,7 +4,8 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Dishsec = () => {
     return (
-        <div className='mx-5'>
+        <div className='mx-5' data-aos="fade-up"
+        data-aos-duration="3000">
             <h2 className="text-[#FF6868] fw-bold">Special Dishes</h2>
             <div className='d-flex flex-wrap justify-content-between '>
                 <h1>Standout Dishes <br /> From Our Menu</h1>

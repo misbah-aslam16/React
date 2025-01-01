@@ -1,13 +1,16 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import './Card.css';  // Import the CSS file
 
 const Card = () => {
     return (
         <Container className="py-5 mx-auto mt-2 mb-5">
             <div className="row gap-5 justify-content-center">
                 {/* Card 1 */}
-                <div className="col-lg-2 col-md-3 col-sm-6 col-12">
-                    <div className="shadow bg-white rounded-[40px] text-center p-3">
+                <div className="col-lg-2 col-md-3 col-sm-6 col-12" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                    <div className="shadow bg-white rounded-[40px] text-center p-3 card-container">
                         <div
                             className="bg-[#C1F1C6] rounded-circle d-flex align-items-center justify-content-center mx-auto"
                             style={{ width: '100px', height: '100px' }}
@@ -25,8 +28,10 @@ const Card = () => {
                 </div>
 
                 {/* Card 2 */}
-                <div className="col-lg-2 col-md-3 col-sm-6 col-12">
-                    <div className="shadow bg-white rounded-[40px] text-center p-3">
+                <div className="col-lg-2 col-md-3 col-sm-6 col-12" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                    <div className="shadow bg-white rounded-[40px] text-center p-3 card-container">
                         <div
                             className="bg-[#C1F1C6] rounded-circle d-flex align-items-center justify-content-center mx-auto"
                             style={{ width: '100px', height: '100px' }}
@@ -44,8 +49,10 @@ const Card = () => {
                 </div>
 
                 {/* Card 3 */}
-                <div className="col-lg-2 col-md-3 col-sm-6 col-12">
-                    <div className="shadow bg-white rounded-[40px] text-center p-3">
+                <div className="col-lg-2 col-md-3 col-sm-6 col-12" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                    <div className="shadow bg-white rounded-[40px] text-center p-3 card-container">
                         <div
                             className="bg-[#C1F1C6] rounded-circle d-flex align-items-center justify-content-center mx-auto"
                             style={{ width: '100px', height: '100px' }}
@@ -63,8 +70,10 @@ const Card = () => {
                 </div>
 
                 {/* Card 4 */}
-                <div className="col-lg-2 col-md-3 col-sm-6 col-12">
-                    <div className="shadow bg-white rounded-[40px] text-center p-3">
+                <div className="col-lg-2 col-md-3 col-sm-6 col-12" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                    <div className="shadow bg-white rounded-[40px] text-center p-3 card-container">
                         <div
                             className="bg-[#C1F1C6] rounded-circle d-flex align-items-center justify-content-center mx-auto"
                             style={{ width: '100px', height: '100px' }}
